@@ -1367,7 +1367,7 @@ function Material.Load(Config)
 					ChipLabel.Size = BuildTable[Key] and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))
 					ChipLabel.Position = BuildTable[Key] and UDim2.fromOffset(30) or UDim2.fromOffset(5)
 					ChipLabel.Text = Key
-					ChipLabel.Font = Enum.Font.Gotham
+					ChipLabel.Font = Enum.Font.GothamMedium
 					ChipLabel.TextSize = 12
 					ChipLabel.TextColor3 = BuildTable[Key] and Theme.ChipSetAccent or Theme.ChipSet
 					ChipLabel.TextTransparency = 1
